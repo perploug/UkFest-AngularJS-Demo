@@ -2,6 +2,13 @@
 
 **Code from my UK Umbraco festival 2013, to install, simply copy the app_code and app_plugins folder to the root of your site, run the people.sql against the current database, and finally restart your website.**
 
+##What is this?
+
+The included files was used during my session to show how you build a tree, intergrate it with a context menu, wire it up to dialogs, and editor, and how we make those views fetch and submit data to the server. Finally we reuse a lot of our logic, building a custom picker property editor to assign custom data to a document. 
+
+Read the attached slides.md for each step with some additional comments
+
+
 ##Folder structure
 
 ###App_code
