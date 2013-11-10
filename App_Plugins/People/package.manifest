@@ -1,0 +1,20 @@
+{
+	propertyEditors: [		
+		{
+			alias: "People.PersonPicker",
+			name: "Person Picker",
+			hideLabel: false,
+			valueType: "INT",
+			editor: {
+				view: "~/App_Plugins/People/propertyEditors/PersonPicker.html"
+			}
+		}
+	],
+
+	javascript: [
+		'~/App_Plugins/People/propertyEditors/PersonPicker.controller.js',
+	    '~/App_Plugins/People/backoffice/peopletree/edit.controller.js',
+	    '~/App_Plugins/People/umbraco/peopletree/dialogs.controller.js',
+	    '~/App_Plugins/People/person.resource.js'
+	]
+}
