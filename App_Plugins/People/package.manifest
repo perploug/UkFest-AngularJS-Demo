@@ -4,9 +4,9 @@
 			alias: "People.PersonPicker",
 			name: "Person Picker",
 			hideLabel: false,
-			valueType: "INT",
 			editor: {
-				view: "~/App_Plugins/People/propertyEditors/PersonPicker.html"
+				view: "~/App_Plugins/People/propertyEditors/PersonPicker.html",
+				valueType: "INT"
 			}
 		}
 	],
